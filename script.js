@@ -93,6 +93,8 @@ function updateTable(tasks) {
 
         tableBody.appendChild(row);
     });
+    // Write log to console when table update process is completed
+    console.log('Table updated. Number of tasks:', tasks.length);
 }
 
 function searchTable() {

@@ -20,11 +20,6 @@ if (isset($_POST["submit"])) {
     }
 }
 
-// if (file_exists($targetFile)) {
-//     echo "Üzgünüm, dosya zaten mevcut.";
-//     $uploadOk = 0;
-// }
-
 // check the file size
 if ($_FILES["image"]["size"] > 500000) {
     echo "Sorry, the file is too large.";
